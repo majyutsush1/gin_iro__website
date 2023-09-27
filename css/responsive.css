@@ -1,0 +1,52 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+    .main_box p {
+        width:500px;
+    }
+    .main_box img {
+      width:576px;
+      height:324px;
+    }
+    .header p {
+    with 500px;
+}
+　h2 span {
+  display: inline-block;
+}
+
+}
+@media only screen and (max-width:1000px) {
+  .text br {
+    display: none;
+  }
+   .footer_box p {
+        width:500px;
+}
+.word-break.break-word {
+  word-break: break-word;
+}
+
+}
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+    .main_box p {
+        width: 250px;
+    }
+    .main_box img {
+      width:256px;
+      height:144px;
+    }
+.text br {
+  display: none;
+}
+.word-break.break-word {
+  word-break: break-word;
+}
+
+@media only screen and (max-width: 670px) {
+  .text br {
+    display: inline;
+  }
+}
+    
+}
